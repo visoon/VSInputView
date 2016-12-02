@@ -23,3 +23,24 @@ UITextField和UITextView的字数限制封装
     //可以控制是否显示字数限制
     self.VSTextView.showLimitLengthAccessoryView = YES;
 ```
+###核心代码
+```c
+- (void)vs_limitText {
+    if (self.maxLength == NSIntegerMax) {
+        return;
+    }
+    NSInteger currentInputLocation = [self vs_getCurrentInputLocation];
+    NSInteger inputLength = currentInputLocation - self.preInputLocation;
+    
+    if (self.text.length > self.maxLength) {
+        NSMutableString *selfText = [self.text mutableCopy];
+        NSInteger needDeleteLength = self.text.length - self.maxLength;
+        //calculate the range of need to be delete in whole text
+        NSRange needDeleteRange = NSMakeRange(self.preInputLocation + (inputLength - needDeleteLength), needDeleteLength);
+        [selfText deleteCharactersInRange:needDeleteRange];
+        self.text = selfText;
+    }
+    self.preInputLocation = [self vs_getCurrentInputLocation];
+}
+
+```
