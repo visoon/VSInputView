@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF8E6E31DEECF8200966046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E6E21DEECF8200966046 /* main.m */; };
+		8BF8E6E61DEECF8200966046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E6E51DEECF8200966046 /* AppDelegate.m */; };
+		8BF8E6E91DEECF8200966046 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E6E81DEECF8200966046 /* ViewController.m */; };
+		8BF8E6EC1DEECF8200966046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8E6EA1DEECF8200966046 /* Main.storyboard */; };
+		8BF8E6EE1DEECF8200966046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8E6ED1DEECF8200966046 /* Assets.xcassets */; };
+		8BF8E6F11DEECF8200966046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8E6EF1DEECF8200966046 /* LaunchScreen.storyboard */; };
+		8BF8E6FC1DEECF8200966046 /* VSInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E6FB1DEECF8200966046 /* VSInputViewTests.m */; };
+		8BF8E7071DEECF8200966046 /* VSInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E7061DEECF8200966046 /* VSInputViewUITests.m */; };
+		8BF8E71B1DEECF9000966046 /* VSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E7161DEECF9000966046 /* VSLimitTextField.m */; };
+		8BF8E71C1DEECF9000966046 /* VSLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E7181DEECF9000966046 /* VSLimitTextView.m */; };
+		8BF8E71D1DEECF9000966046 /* VSLimitTVAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8E71A1DEECF9000966046 /* VSLimitTVAccessoryView.m */; };
+		8BF8E71F1DEED33600966046 /* VSLimitTVAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8E71E1DEED33600966046 /* VSLimitTVAccessoryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF8E6F81DEECF8200966046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF8E6D61DEECF8200966046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF8E6DD1DEECF8200966046;
+			remoteInfo = VSInputView;
+		};
+		8BF8E7031DEECF8200966046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF8E6D61DEECF8200966046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF8E6DD1DEECF8200966046;
+			remoteInfo = VSInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BF8E6DE1DEECF8200966046 /* VSInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF8E6E21DEECF8200966046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BF8E6E41DEECF8200966046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BF8E6E51DEECF8200966046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BF8E6E71DEECF8200966046 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BF8E6E81DEECF8200966046 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BF8E6EB1DEECF8200966046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF8E6ED1DEECF8200966046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF8E6F01DEECF8200966046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BF8E6F21DEECF8200966046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF8E6F71DEECF8200966046 /* VSInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF8E6FB1DEECF8200966046 /* VSInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSInputViewTests.m; sourceTree = "<group>"; };
+		8BF8E6FD1DEECF8200966046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF8E7021DEECF8200966046 /* VSInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF8E7061DEECF8200966046 /* VSInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSInputViewUITests.m; sourceTree = "<group>"; };
+		8BF8E7081DEECF8200966046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF8E7151DEECF9000966046 /* VSLimitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextField.h; sourceTree = "<group>"; };
+		8BF8E7161DEECF9000966046 /* VSLimitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextField.m; sourceTree = "<group>"; };
+		8BF8E7171DEECF9000966046 /* VSLimitTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextView.h; sourceTree = "<group>"; };
+		8BF8E7181DEECF9000966046 /* VSLimitTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextView.m; sourceTree = "<group>"; };
+		8BF8E7191DEECF9000966046 /* VSLimitTVAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTVAccessoryView.h; sourceTree = "<group>"; };
+		8BF8E71A1DEECF9000966046 /* VSLimitTVAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTVAccessoryView.m; sourceTree = "<group>"; };
+		8BF8E71E1DEED33600966046 /* VSLimitTVAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSLimitTVAccessoryView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF8E6DB1DEECF8200966046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E6F41DEECF8200966046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E6FF1DEECF8200966046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF8E6D51DEECF8200966046 = {
+			isa = PBXGroup;
+			children = (
+				8BF8E7141DEECF9000966046 /* MNZLimitTextView */,
+				8BF8E6E01DEECF8200966046 /* VSInputView */,
+				8BF8E6FA1DEECF8200966046 /* VSInputViewTests */,
+				8BF8E7051DEECF8200966046 /* VSInputViewUITests */,
+				8BF8E6DF1DEECF8200966046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF8E6DF1DEECF8200966046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E6DE1DEECF8200966046 /* VSInputView.app */,
+				8BF8E6F71DEECF8200966046 /* VSInputViewTests.xctest */,
+				8BF8E7021DEECF8200966046 /* VSInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF8E6E01DEECF8200966046 /* VSInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E6E41DEECF8200966046 /* AppDelegate.h */,
+				8BF8E6E51DEECF8200966046 /* AppDelegate.m */,
+				8BF8E6E71DEECF8200966046 /* ViewController.h */,
+				8BF8E6E81DEECF8200966046 /* ViewController.m */,
+				8BF8E6EA1DEECF8200966046 /* Main.storyboard */,
+				8BF8E6ED1DEECF8200966046 /* Assets.xcassets */,
+				8BF8E6EF1DEECF8200966046 /* LaunchScreen.storyboard */,
+				8BF8E6F21DEECF8200966046 /* Info.plist */,
+				8BF8E6E11DEECF8200966046 /* Supporting Files */,
+			);
+			path = VSInputView;
+			sourceTree = "<group>";
+		};
+		8BF8E6E11DEECF8200966046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E6E21DEECF8200966046 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF8E6FA1DEECF8200966046 /* VSInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E6FB1DEECF8200966046 /* VSInputViewTests.m */,
+				8BF8E6FD1DEECF8200966046 /* Info.plist */,
+			);
+			path = VSInputViewTests;
+			sourceTree = "<group>";
+		};
+		8BF8E7051DEECF8200966046 /* VSInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E7061DEECF8200966046 /* VSInputViewUITests.m */,
+				8BF8E7081DEECF8200966046 /* Info.plist */,
+			);
+			path = VSInputViewUITests;
+			sourceTree = "<group>";
+		};
+		8BF8E7141DEECF9000966046 /* MNZLimitTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8E7151DEECF9000966046 /* VSLimitTextField.h */,
+				8BF8E7161DEECF9000966046 /* VSLimitTextField.m */,
+				8BF8E7171DEECF9000966046 /* VSLimitTextView.h */,
+				8BF8E7181DEECF9000966046 /* VSLimitTextView.m */,
+				8BF8E7191DEECF9000966046 /* VSLimitTVAccessoryView.h */,
+				8BF8E71A1DEECF9000966046 /* VSLimitTVAccessoryView.m */,
+				8BF8E71E1DEED33600966046 /* VSLimitTVAccessoryView.xib */,
+			);
+			path = MNZLimitTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF8E6DD1DEECF8200966046 /* VSInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF8E70B1DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputView" */;
+			buildPhases = (
+				8BF8E6DA1DEECF8200966046 /* Sources */,
+				8BF8E6DB1DEECF8200966046 /* Frameworks */,
+				8BF8E6DC1DEECF8200966046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSInputView;
+			productName = VSInputView;
+			productReference = 8BF8E6DE1DEECF8200966046 /* VSInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BF8E6F61DEECF8200966046 /* VSInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF8E70E1DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputViewTests" */;
+			buildPhases = (
+				8BF8E6F31DEECF8200966046 /* Sources */,
+				8BF8E6F41DEECF8200966046 /* Frameworks */,
+				8BF8E6F51DEECF8200966046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF8E6F91DEECF8200966046 /* PBXTargetDependency */,
+			);
+			name = VSInputViewTests;
+			productName = VSInputViewTests;
+			productReference = 8BF8E6F71DEECF8200966046 /* VSInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BF8E7011DEECF8200966046 /* VSInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF8E7111DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputViewUITests" */;
+			buildPhases = (
+				8BF8E6FE1DEECF8200966046 /* Sources */,
+				8BF8E6FF1DEECF8200966046 /* Frameworks */,
+				8BF8E7001DEECF8200966046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF8E7041DEECF8200966046 /* PBXTargetDependency */,
+			);
+			name = VSInputViewUITests;
+			productName = VSInputViewUITests;
+			productReference = 8BF8E7021DEECF8200966046 /* VSInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF8E6D61DEECF8200966046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = vison;
+				TargetAttributes = {
+					8BF8E6DD1DEECF8200966046 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8BF8E6F61DEECF8200966046 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BF8E6DD1DEECF8200966046;
+					};
+					8BF8E7011DEECF8200966046 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BF8E6DD1DEECF8200966046;
+					};
+				};
+			};
+			buildConfigurationList = 8BF8E6D91DEECF8200966046 /* Build configuration list for PBXProject "VSInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF8E6D51DEECF8200966046;
+			productRefGroup = 8BF8E6DF1DEECF8200966046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF8E6DD1DEECF8200966046 /* VSInputView */,
+				8BF8E6F61DEECF8200966046 /* VSInputViewTests */,
+				8BF8E7011DEECF8200966046 /* VSInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF8E6DC1DEECF8200966046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8E71F1DEED33600966046 /* VSLimitTVAccessoryView.xib in Resources */,
+				8BF8E6F11DEECF8200966046 /* LaunchScreen.storyboard in Resources */,
+				8BF8E6EE1DEECF8200966046 /* Assets.xcassets in Resources */,
+				8BF8E6EC1DEECF8200966046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E6F51DEECF8200966046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E7001DEECF8200966046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF8E6DA1DEECF8200966046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8E6E91DEECF8200966046 /* ViewController.m in Sources */,
+				8BF8E71D1DEECF9000966046 /* VSLimitTVAccessoryView.m in Sources */,
+				8BF8E6E61DEECF8200966046 /* AppDelegate.m in Sources */,
+				8BF8E6E31DEECF8200966046 /* main.m in Sources */,
+				8BF8E71B1DEECF9000966046 /* VSLimitTextField.m in Sources */,
+				8BF8E71C1DEECF9000966046 /* VSLimitTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E6F31DEECF8200966046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8E6FC1DEECF8200966046 /* VSInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF8E6FE1DEECF8200966046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF8E7071DEECF8200966046 /* VSInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF8E6F91DEECF8200966046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF8E6DD1DEECF8200966046 /* VSInputView */;
+			targetProxy = 8BF8E6F81DEECF8200966046 /* PBXContainerItemProxy */;
+		};
+		8BF8E7041DEECF8200966046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF8E6DD1DEECF8200966046 /* VSInputView */;
+			targetProxy = 8BF8E7031DEECF8200966046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BF8E6EA1DEECF8200966046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF8E6EB1DEECF8200966046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BF8E6EF1DEECF8200966046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF8E6F01DEECF8200966046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF8E7091DEECF8200966046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BF8E70A1DEECF8200966046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF8E70C1DEECF8200966046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VSInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BF8E70D1DEECF8200966046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VSInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BF8E70F1DEECF8200966046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VSInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSInputView.app/VSInputView";
+			};
+			name = Debug;
+		};
+		8BF8E7101DEECF8200966046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VSInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSInputView.app/VSInputView";
+			};
+			name = Release;
+		};
+		8BF8E7121DEECF8200966046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VSInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VSInputView;
+			};
+			name = Debug;
+		};
+		8BF8E7131DEECF8200966046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VSInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VSInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF8E6D91DEECF8200966046 /* Build configuration list for PBXProject "VSInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8E7091DEECF8200966046 /* Debug */,
+				8BF8E70A1DEECF8200966046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF8E70B1DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8E70C1DEECF8200966046 /* Debug */,
+				8BF8E70D1DEECF8200966046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BF8E70E1DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8E70F1DEECF8200966046 /* Debug */,
+				8BF8E7101DEECF8200966046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BF8E7111DEECF8200966046 /* Build configuration list for PBXNativeTarget "VSInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF8E7121DEECF8200966046 /* Debug */,
+				8BF8E7131DEECF8200966046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF8E6D61DEECF8200966046 /* Project object */;
+}
