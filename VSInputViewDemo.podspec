@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint VSInputView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint VSInputViewDemo.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "VSInputViewDemo”
+  s.name         = "VSInputViewDemo"
   s.version      = "1.0"
   s.summary      = "Limit of input count in UITextField and UITextView!"
 
@@ -24,15 +24,17 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Limit of input count in UITextField and UITextView!"
+  s.description  = <<-DESC
+Limit of input count in UITextField and UITextView !!
+                   DESC
 
-  s.homepage     = "https://github.com/visoon/VSInputViewDemo”
-  # s.screenshots  = "https://github.com/visoon/VSInputView/blob/master/VSInputView.gif"
+  s.homepage     = "https://github.com/visoon/VSInputViewDemo"
+  # s.screenshots  = "www.example.com/screenshots_1.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
+  #  Licensing your code is important.
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
@@ -62,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VSInputView”, "VSInputViewDemo/VSInputView/*”
+  s.source_files  = "VSInputView", "VSInputViewDemo/VSInputView/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
