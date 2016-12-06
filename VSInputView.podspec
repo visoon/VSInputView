@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "Limit of input count in UITextField and UITextView!"
 
   s.homepage     = "https://github.com/visoon/VSInputView"
   # s.screenshots  = "https://github.com/visoon/VSInputView/blob/master/VSInputView.gif"
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/VSInputView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/visoon/VSInputView", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
