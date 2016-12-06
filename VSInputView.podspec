@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "vison" => "" }
+  s.author             = { "vison" => "visoooon@gmail.com" }
   # Or just: s.author    = "vison"
   # s.authors            = { "vison" => "" }
   # s.social_media_url   = "http://twitter.com/vison"
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/visoon/VSInputView", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/visoon/VSInputView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
