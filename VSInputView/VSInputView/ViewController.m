@@ -26,6 +26,7 @@
     
     
     self.VSTextView.maxLength = 30;
+    self.VSTextView.allowOverLength = 5;
     self.VSTextView.placeHolder = @"This is textView!";
     self.VSTextView.showLimitLengthAccessoryView = YES;
 }

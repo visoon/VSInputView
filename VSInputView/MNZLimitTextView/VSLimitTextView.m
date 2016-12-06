@@ -69,9 +69,9 @@
     NSInteger currentInputLocation = [self vs_getCurrentInputLocation];
     NSInteger inputLength = currentInputLocation - self.preInputLocation;
     
-    if (self.text.length > self.maxLength) {
+    if (self.text.length > [self allowMaxLength]) {
         NSMutableString *selfText = [self.text mutableCopy];
-        NSInteger needDeleteLength = self.text.length - self.maxLength;
+        NSInteger needDeleteLength = self.text.length - [self allowMaxLength];
         //calculate the range of need to be delete in whole text
         NSRange needDeleteRange = NSMakeRange(self.preInputLocation + (inputLength - needDeleteLength), needDeleteLength);
         [selfText deleteCharactersInRange:needDeleteRange];
