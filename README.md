@@ -1,16 +1,16 @@
 # VSInputView
-UITextField和UITextView的字数限制封装
-### 预览图
+Limit of input count in UITextField and UITextView!
+### Preview gif
 ![image](https://github.com/visoon/VSInputView/blob/master/VSInputView.gif)
 <br>
 <br>
 
 
-###使用说明
+### Usage
 ####  UITextField
 ```c
     self.VSTextField.maxLength = 20;
-    //可以控制是否显示字数限制
+    //show a accessory view to show the limit of inputing text.
     self.VSTextField.showLimitLengthAccessoryView = YES;
     self.VSTextField.placeholder = @"This is textField!";
 ```
@@ -18,12 +18,10 @@ UITextField和UITextView的字数限制封装
 ####  UITextView
 ```c
     self.VSTextView.maxLength = 30;
-    //UITextView的placeholder
     self.VSTextView.placeHolder = @"This is textView!";
-    //可以控制是否显示字数限制
     self.VSTextView.showLimitLengthAccessoryView = YES;
 ```
-###核心代码
+### Core codes
 ```c
 - (void)vs_limitText {
     if (self.maxLength == NSIntegerMax) {
