@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "VSInputView"
+  s.name         = "VSInputViewDemo”
   s.version      = "1.0"
   s.summary      = "Limit of input count in UITextField and UITextView!"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Limit of input count in UITextField and UITextView!"
 
-  s.homepage     = "https://github.com/visoon/VSInputView"
+  s.homepage     = "https://github.com/visoon/VSInputViewDemo”
   # s.screenshots  = "https://github.com/visoon/VSInputView/blob/master/VSInputView.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/visoon/VSInputView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/visoon/VSInputViewDemo.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VSInputView", "VSInputView/*"
+  s.source_files  = "VSInputView”, "VSInputViewDemo/VSInputView/*”
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
