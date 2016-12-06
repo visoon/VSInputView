@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB28CEA1DF69C72005352AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CE91DF69C72005352AD /* main.m */; };
+		8BB28CED1DF69C72005352AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEC1DF69C72005352AD /* AppDelegate.m */; };
+		8BB28CF01DF69C72005352AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEF1DF69C72005352AD /* ViewController.m */; };
+		8BB28CF31DF69C72005352AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF11DF69C72005352AD /* Main.storyboard */; };
+		8BB28CF51DF69C72005352AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF41DF69C72005352AD /* Assets.xcassets */; };
+		8BB28CF81DF69C72005352AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF61DF69C72005352AD /* LaunchScreen.storyboard */; };
+		8BB28D071DF69CA3005352AD /* VSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D011DF69CA3005352AD /* VSLimitTextField.m */; };
+		8BB28D081DF69CA3005352AD /* VSLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D031DF69CA3005352AD /* VSLimitTextView.m */; };
+		8BB28D091DF69CA3005352AD /* VSLimitTVAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */; };
+		8BB28D0A1DF69CA3005352AD /* VSLimitTVAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BB28CE51DF69C72005352AD /* VSInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB28CE91DF69C72005352AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BB28CEB1DF69C72005352AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BB28CEC1DF69C72005352AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BB28CEE1DF69C72005352AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BB28CEF1DF69C72005352AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BB28CF21DF69C72005352AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB28CF41DF69C72005352AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB28CF71DF69C72005352AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB28CF91DF69C72005352AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB28D001DF69CA3005352AD /* VSLimitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextField.h; sourceTree = "<group>"; };
+		8BB28D011DF69CA3005352AD /* VSLimitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextField.m; sourceTree = "<group>"; };
+		8BB28D021DF69CA3005352AD /* VSLimitTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextView.h; sourceTree = "<group>"; };
+		8BB28D031DF69CA3005352AD /* VSLimitTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextView.m; sourceTree = "<group>"; };
+		8BB28D041DF69CA3005352AD /* VSLimitTVAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTVAccessoryView.h; sourceTree = "<group>"; };
+		8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTVAccessoryView.m; sourceTree = "<group>"; };
+		8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSLimitTVAccessoryView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB28CE21DF69C72005352AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB28CDC1DF69C72005352AD = {
+			isa = PBXGroup;
+			children = (
+				8BB28CFF1DF69CA3005352AD /* VSInputView */,
+				8BB28CE71DF69C72005352AD /* VSInputViewDemo */,
+				8BB28CE61DF69C72005352AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB28CE61DF69C72005352AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB28CE51DF69C72005352AD /* VSInputViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB28CE71DF69C72005352AD /* VSInputViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8BB28CEB1DF69C72005352AD /* AppDelegate.h */,
+				8BB28CEC1DF69C72005352AD /* AppDelegate.m */,
+				8BB28CEE1DF69C72005352AD /* ViewController.h */,
+				8BB28CEF1DF69C72005352AD /* ViewController.m */,
+				8BB28CF11DF69C72005352AD /* Main.storyboard */,
+				8BB28CF41DF69C72005352AD /* Assets.xcassets */,
+				8BB28CF61DF69C72005352AD /* LaunchScreen.storyboard */,
+				8BB28CF91DF69C72005352AD /* Info.plist */,
+				8BB28CE81DF69C72005352AD /* Supporting Files */,
+			);
+			path = VSInputViewDemo;
+			sourceTree = "<group>";
+		};
+		8BB28CE81DF69C72005352AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB28CE91DF69C72005352AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB28CFF1DF69CA3005352AD /* VSInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8BB28D001DF69CA3005352AD /* VSLimitTextField.h */,
+				8BB28D011DF69CA3005352AD /* VSLimitTextField.m */,
+				8BB28D021DF69CA3005352AD /* VSLimitTextView.h */,
+				8BB28D031DF69CA3005352AD /* VSLimitTextView.m */,
+				8BB28D041DF69CA3005352AD /* VSLimitTVAccessoryView.h */,
+				8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */,
+				8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */,
+			);
+			path = VSInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB28CE41DF69C72005352AD /* VSInputViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB28CFC1DF69C72005352AD /* Build configuration list for PBXNativeTarget "VSInputViewDemo" */;
+			buildPhases = (
+				8BB28CE11DF69C72005352AD /* Sources */,
+				8BB28CE21DF69C72005352AD /* Frameworks */,
+				8BB28CE31DF69C72005352AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSInputViewDemo;
+			productName = VSInputViewDemo;
+			productReference = 8BB28CE51DF69C72005352AD /* VSInputViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB28CDD1DF69C72005352AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = vison;
+				TargetAttributes = {
+					8BB28CE41DF69C72005352AD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YWS5ZJE3CE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BB28CE01DF69C72005352AD /* Build configuration list for PBXProject "VSInputViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB28CDC1DF69C72005352AD;
+			productRefGroup = 8BB28CE61DF69C72005352AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB28CE41DF69C72005352AD /* VSInputViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB28CE31DF69C72005352AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB28D0A1DF69CA3005352AD /* VSLimitTVAccessoryView.xib in Resources */,
+				8BB28CF81DF69C72005352AD /* LaunchScreen.storyboard in Resources */,
+				8BB28CF51DF69C72005352AD /* Assets.xcassets in Resources */,
+				8BB28CF31DF69C72005352AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB28CE11DF69C72005352AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB28D081DF69CA3005352AD /* VSLimitTextView.m in Sources */,
+				8BB28CF01DF69C72005352AD /* ViewController.m in Sources */,
+				8BB28D091DF69CA3005352AD /* VSLimitTVAccessoryView.m in Sources */,
+				8BB28CED1DF69C72005352AD /* AppDelegate.m in Sources */,
+				8BB28D071DF69CA3005352AD /* VSLimitTextField.m in Sources */,
+				8BB28CEA1DF69C72005352AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB28CF11DF69C72005352AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB28CF21DF69C72005352AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB28CF61DF69C72005352AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB28CF71DF69C72005352AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB28CFA1DF69C72005352AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB28CFB1DF69C72005352AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB28CFD1DF69C72005352AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWS5ZJE3CE;
+				INFOPLIST_FILE = VSInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BB28CFE1DF69C72005352AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWS5ZJE3CE;
+				INFOPLIST_FILE = VSInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vison.VSInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB28CE01DF69C72005352AD /* Build configuration list for PBXProject "VSInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB28CFA1DF69C72005352AD /* Debug */,
+				8BB28CFB1DF69C72005352AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB28CFC1DF69C72005352AD /* Build configuration list for PBXNativeTarget "VSInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB28CFD1DF69C72005352AD /* Debug */,
+				8BB28CFE1DF69C72005352AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB28CDD1DF69C72005352AD /* Project object */;
+}

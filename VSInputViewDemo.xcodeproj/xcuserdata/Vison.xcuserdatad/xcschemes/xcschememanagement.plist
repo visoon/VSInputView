@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>VSInputView.xcscheme</key>
+		<key>VSInputViewDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8BF8E6DD1DEECF8200966046</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8BF8E6F61DEECF8200966046</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8BF8E7011DEECF8200966046</key>
+		<key>8BB28CE41DF69C72005352AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

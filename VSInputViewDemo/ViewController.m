@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  VSInputView
+//  VSInputViewDemo
 //
-//  Created by 王翔 on 11/30/16.
+//  Created by 王翔 on 12/6/16.
 //  Copyright © 2016 vison. All rights reserved.
 //
 
@@ -13,7 +13,6 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet VSLimitTextField *VSTextField;
 @property (weak, nonatomic) IBOutlet VSLimitTextView *VSTextView;
-
 @end
 
 @implementation ViewController

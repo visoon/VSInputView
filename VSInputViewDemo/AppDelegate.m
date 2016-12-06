@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  VSInputView
+//  VSInputViewDemo
 //
-//  Created by 王翔 on 11/30/16.
+//  Created by 王翔 on 12/6/16.
 //  Copyright © 2016 vison. All rights reserved.
 //
 
