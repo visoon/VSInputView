@@ -16,11 +16,11 @@
 @implementation VSLimitTVAccessoryView
 
 - (void)updateTotalLength:(NSInteger)totalLength {
-    self.totalLengthLabel.text = [NSString stringWithFormat:@"%ld", totalLength];
+    self.totalLengthLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)totalLength];
 }
 
 - (void)updateCurrentLength:(NSInteger)currentLength {
-    self.currentLengthLabel.text = [NSString stringWithFormat:@"%ld", currentLength];
+    self.currentLengthLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)currentLength];
 }
 
 - (IBAction)action_done:(UIButton *)sender {

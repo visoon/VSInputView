@@ -106,8 +106,6 @@
     if ([self.childDelegate respondsToSelector:@selector(textViewDidChange:)]) {
         [self.childDelegate textViewDidChange:textView];
     }
-    
-    NSLog(@"numberOfLines = %ld", self.numberOfLines);
 }
 
 
