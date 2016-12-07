@@ -91,8 +91,8 @@ Limit of input count in UITextField and UITextView !!
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VSInputView", "VSInputViewDemo/VSInputView/*"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "VSInputView", "VSInputViewDemo/VSInputView/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
