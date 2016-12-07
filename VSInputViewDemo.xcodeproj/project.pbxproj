@@ -10,7 +10,7 @@
 		8B1355F51DF7E79300EBCF70 /* VSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355EF1DF7E79300EBCF70 /* VSLimitTextField.m */; };
 		8B1355F61DF7E79300EBCF70 /* VSLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355F11DF7E79300EBCF70 /* VSLimitTextView.m */; };
 		8B1355F71DF7E79300EBCF70 /* VSLimitTVAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */; };
-		8BA275851DF813FC00BE5C15 /* VSLimitTVAccessoryView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA275841DF813FC00BE5C15 /* VSLimitTVAccessoryView.nib */; };
+		8BA2758D1DF81B4000BE5C15 /* VSInputView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2758C1DF81B4000BE5C15 /* VSInputView.bundle */; };
 		8BB28CEA1DF69C72005352AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CE91DF69C72005352AD /* main.m */; };
 		8BB28CED1DF69C72005352AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEC1DF69C72005352AD /* AppDelegate.m */; };
 		8BB28CF01DF69C72005352AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEF1DF69C72005352AD /* ViewController.m */; };
@@ -26,7 +26,7 @@
 		8B1355F11DF7E79300EBCF70 /* VSLimitTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextView.m; sourceTree = "<group>"; };
 		8B1355F21DF7E79300EBCF70 /* VSLimitTVAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTVAccessoryView.h; sourceTree = "<group>"; };
 		8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTVAccessoryView.m; sourceTree = "<group>"; };
-		8BA275841DF813FC00BE5C15 /* VSLimitTVAccessoryView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = VSLimitTVAccessoryView.nib; sourceTree = "<group>"; };
+		8BA2758C1DF81B4000BE5C15 /* VSInputView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VSInputView.bundle; sourceTree = "<group>"; };
 		8BB28CE51DF69C72005352AD /* VSInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB28CE91DF69C72005352AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB28CEB1DF69C72005352AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		8B1355ED1DF7E79300EBCF70 /* VSInputView */ = {
 			isa = PBXGroup;
 			children = (
-				8BA275831DF813FC00BE5C15 /* Bundle */,
+				8BA2758C1DF81B4000BE5C15 /* VSInputView.bundle */,
 				8B1355EE1DF7E79300EBCF70 /* VSLimitTextField.h */,
 				8B1355EF1DF7E79300EBCF70 /* VSLimitTextField.m */,
 				8B1355F01DF7E79300EBCF70 /* VSLimitTextView.h */,
@@ -62,14 +62,6 @@
 				8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */,
 			);
 			path = VSInputView;
-			sourceTree = "<group>";
-		};
-		8BA275831DF813FC00BE5C15 /* Bundle */ = {
-			isa = PBXGroup;
-			children = (
-				8BA275841DF813FC00BE5C15 /* VSLimitTVAccessoryView.nib */,
-			);
-			path = Bundle;
 			sourceTree = "<group>";
 		};
 		8BB28CDC1DF69C72005352AD = {
@@ -174,8 +166,8 @@
 			files = (
 				8BB28CF81DF69C72005352AD /* LaunchScreen.storyboard in Resources */,
 				8BB28CF51DF69C72005352AD /* Assets.xcassets in Resources */,
+				8BA2758D1DF81B4000BE5C15 /* VSInputView.bundle in Resources */,
 				8BB28CF31DF69C72005352AD /* Main.storyboard in Resources */,
-				8BA275851DF813FC00BE5C15 /* VSLimitTVAccessoryView.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

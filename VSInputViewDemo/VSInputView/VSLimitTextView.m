@@ -151,7 +151,8 @@
 
 - (VSLimitTVAccessoryView *)accessoryView {
     if (!_accessoryView) {
-        _accessoryView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([VSLimitTVAccessoryView class]) owner:self options:nil][0]; ;
+        NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"VSInputView.bundle"]];
+        _accessoryView = [bundle loadNibNamed:NSStringFromClass([VSLimitTVAccessoryView class]) owner:self options:nil][0]; ;
         _accessoryView.bounds = CGRectMake(0, 0, 0, 40);
         __weak typeof(self) weakself = self;
         [_accessoryView setDoneBlock:^{
