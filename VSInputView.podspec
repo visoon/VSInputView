@@ -106,7 +106,7 @@ Limit of input count in UITextField and UITextView!!
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "VSInputViewDemo/VSInputView/VSInputView.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
