@@ -64,7 +64,7 @@ Limit of input count in UITextField and UITextView!!
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -91,7 +91,7 @@ Limit of input count in UITextField and UITextView!!
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VSInputView", "VSInputViewDemo/VSInputView/*.{h,m}"
+  s.source_files  = "VSInputView", "VSInputViewDemo/VSInputView/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
