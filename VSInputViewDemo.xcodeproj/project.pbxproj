@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1355F51DF7E79300EBCF70 /* VSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355EF1DF7E79300EBCF70 /* VSLimitTextField.m */; };
+		8B1355F61DF7E79300EBCF70 /* VSLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355F11DF7E79300EBCF70 /* VSLimitTextView.m */; };
+		8B1355F71DF7E79300EBCF70 /* VSLimitTVAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */; };
+		8B1355F81DF7E79300EBCF70 /* VSLimitTVAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1355F41DF7E79300EBCF70 /* VSLimitTVAccessoryView.xib */; };
 		8BB28CEA1DF69C72005352AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CE91DF69C72005352AD /* main.m */; };
 		8BB28CED1DF69C72005352AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEC1DF69C72005352AD /* AppDelegate.m */; };
 		8BB28CF01DF69C72005352AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28CEF1DF69C72005352AD /* ViewController.m */; };
 		8BB28CF31DF69C72005352AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF11DF69C72005352AD /* Main.storyboard */; };
 		8BB28CF51DF69C72005352AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF41DF69C72005352AD /* Assets.xcassets */; };
 		8BB28CF81DF69C72005352AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28CF61DF69C72005352AD /* LaunchScreen.storyboard */; };
-		8BB28D071DF69CA3005352AD /* VSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D011DF69CA3005352AD /* VSLimitTextField.m */; };
-		8BB28D081DF69CA3005352AD /* VSLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D031DF69CA3005352AD /* VSLimitTextView.m */; };
-		8BB28D091DF69CA3005352AD /* VSLimitTVAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */; };
-		8BB28D0A1DF69CA3005352AD /* VSLimitTVAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1355EE1DF7E79300EBCF70 /* VSLimitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextField.h; sourceTree = "<group>"; };
+		8B1355EF1DF7E79300EBCF70 /* VSLimitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextField.m; sourceTree = "<group>"; };
+		8B1355F01DF7E79300EBCF70 /* VSLimitTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextView.h; sourceTree = "<group>"; };
+		8B1355F11DF7E79300EBCF70 /* VSLimitTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextView.m; sourceTree = "<group>"; };
+		8B1355F21DF7E79300EBCF70 /* VSLimitTVAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTVAccessoryView.h; sourceTree = "<group>"; };
+		8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTVAccessoryView.m; sourceTree = "<group>"; };
+		8B1355F41DF7E79300EBCF70 /* VSLimitTVAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSLimitTVAccessoryView.xib; sourceTree = "<group>"; };
 		8BB28CE51DF69C72005352AD /* VSInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB28CE91DF69C72005352AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB28CEB1DF69C72005352AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,13 +37,6 @@
 		8BB28CF41DF69C72005352AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB28CF71DF69C72005352AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB28CF91DF69C72005352AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BB28D001DF69CA3005352AD /* VSLimitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextField.h; sourceTree = "<group>"; };
-		8BB28D011DF69CA3005352AD /* VSLimitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextField.m; sourceTree = "<group>"; };
-		8BB28D021DF69CA3005352AD /* VSLimitTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTextView.h; sourceTree = "<group>"; };
-		8BB28D031DF69CA3005352AD /* VSLimitTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTextView.m; sourceTree = "<group>"; };
-		8BB28D041DF69CA3005352AD /* VSLimitTVAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLimitTVAccessoryView.h; sourceTree = "<group>"; };
-		8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLimitTVAccessoryView.m; sourceTree = "<group>"; };
-		8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSLimitTVAccessoryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B1355ED1DF7E79300EBCF70 /* VSInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8B1355EE1DF7E79300EBCF70 /* VSLimitTextField.h */,
+				8B1355EF1DF7E79300EBCF70 /* VSLimitTextField.m */,
+				8B1355F01DF7E79300EBCF70 /* VSLimitTextView.h */,
+				8B1355F11DF7E79300EBCF70 /* VSLimitTextView.m */,
+				8B1355F21DF7E79300EBCF70 /* VSLimitTVAccessoryView.h */,
+				8B1355F31DF7E79300EBCF70 /* VSLimitTVAccessoryView.m */,
+				8B1355F41DF7E79300EBCF70 /* VSLimitTVAccessoryView.xib */,
+			);
+			path = VSInputView;
+			sourceTree = "<group>";
+		};
 		8BB28CDC1DF69C72005352AD = {
 			isa = PBXGroup;
 			children = (
-				8BB28CFF1DF69CA3005352AD /* VSInputView */,
 				8BB28CE71DF69C72005352AD /* VSInputViewDemo */,
 				8BB28CE61DF69C72005352AD /* Products */,
 			);
@@ -70,6 +83,7 @@
 		8BB28CE71DF69C72005352AD /* VSInputViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8B1355ED1DF7E79300EBCF70 /* VSInputView */,
 				8BB28CEB1DF69C72005352AD /* AppDelegate.h */,
 				8BB28CEC1DF69C72005352AD /* AppDelegate.m */,
 				8BB28CEE1DF69C72005352AD /* ViewController.h */,
@@ -89,20 +103,6 @@
 				8BB28CE91DF69C72005352AD /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8BB28CFF1DF69CA3005352AD /* VSInputView */ = {
-			isa = PBXGroup;
-			children = (
-				8BB28D001DF69CA3005352AD /* VSLimitTextField.h */,
-				8BB28D011DF69CA3005352AD /* VSLimitTextField.m */,
-				8BB28D021DF69CA3005352AD /* VSLimitTextView.h */,
-				8BB28D031DF69CA3005352AD /* VSLimitTextView.m */,
-				8BB28D041DF69CA3005352AD /* VSLimitTVAccessoryView.h */,
-				8BB28D051DF69CA3005352AD /* VSLimitTVAccessoryView.m */,
-				8BB28D061DF69CA3005352AD /* VSLimitTVAccessoryView.xib */,
-			);
-			path = VSInputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB28D0A1DF69CA3005352AD /* VSLimitTVAccessoryView.xib in Resources */,
+				8B1355F81DF7E79300EBCF70 /* VSLimitTVAccessoryView.xib in Resources */,
 				8BB28CF81DF69C72005352AD /* LaunchScreen.storyboard in Resources */,
 				8BB28CF51DF69C72005352AD /* Assets.xcassets in Resources */,
 				8BB28CF31DF69C72005352AD /* Main.storyboard in Resources */,
@@ -178,11 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB28D081DF69CA3005352AD /* VSLimitTextView.m in Sources */,
+				8B1355F61DF7E79300EBCF70 /* VSLimitTextView.m in Sources */,
 				8BB28CF01DF69C72005352AD /* ViewController.m in Sources */,
-				8BB28D091DF69CA3005352AD /* VSLimitTVAccessoryView.m in Sources */,
+				8B1355F71DF7E79300EBCF70 /* VSLimitTVAccessoryView.m in Sources */,
 				8BB28CED1DF69C72005352AD /* AppDelegate.m in Sources */,
-				8BB28D071DF69CA3005352AD /* VSLimitTextField.m in Sources */,
+				8B1355F51DF7E79300EBCF70 /* VSLimitTextField.m in Sources */,
 				8BB28CEA1DF69C72005352AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

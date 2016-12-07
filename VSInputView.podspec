@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint VSInputViewDemo.podspec' to ensure this is a
+#  Be sure to run `pod spec lint VSInputView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "VSInputViewDemo"
-  s.version      = "1.0"
+  s.name         = "VSInputView"
+  s.version      = "0.0.1"
   s.summary      = "Limit of input count in UITextField and UITextView!"
 
   # This description is used to generate tags and improve search results.
@@ -25,16 +25,16 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-Limit of input count in UITextField and UITextView !!
+Limit of input count in UITextField and UITextView!!
                    DESC
 
-  s.homepage     = "https://github.com/visoon/VSInputViewDemo"
-  # s.screenshots  = "www.example.com/screenshots_1.gif"
+  s.homepage     = "https://github.com/visoon/VSInputView" 
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  Licensing your code is important.
+  #  Licensing your code is important. See http://choosealicense.com for more info.
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
@@ -64,7 +64,7 @@ Limit of input count in UITextField and UITextView !!
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -80,7 +80,7 @@ Limit of input count in UITextField and UITextView !!
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/visoon/VSInputViewDemo.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/visoon/VSInputView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
