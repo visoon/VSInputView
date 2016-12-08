@@ -5,6 +5,10 @@ Limit of input count in UITextField and UITextView!
 <br>
 <br>
 
+## Installation
+
+> pod 'VSInputView'
+
 
 ### Usage
 ####  UITextField
